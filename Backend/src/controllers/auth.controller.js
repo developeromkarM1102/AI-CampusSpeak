@@ -34,8 +34,8 @@ async function registerUser(req, res) {
 
     res.cookie("token", token, {
         httpOnly: true,
-        secure: false,
-        sameSite: "lax",
+        secure: true,
+        sameSite: "none",
 
     });
 
@@ -79,8 +79,8 @@ async function loginUser(req, res) {
 
     res.cookie("token", token, {
         httpOnly: true,
-        secure: false,
-        sameSite: "lax",
+        secure: true,
+        sameSite: "none",
 
     });
 
@@ -98,8 +98,8 @@ async function loginUser(req, res) {
 function logoutUser(req, res) {
     res.clearCookie("token",{
         httpOnly: true,
-        secure: false,
-        sameSite: "lax",
+        secure: true,
+        sameSite: "none",
     });
     res.status(200).json({
         message: "user logged out successfully"
@@ -135,8 +135,8 @@ async function registerAdmin(req, res) {
 
     res.cookie("token", token, {
         httpOnly: true,
-        secure: false,
-        sameSite: "lax",
+        secure: true,
+        sameSite: "none",
 
     });
 
@@ -179,8 +179,8 @@ async function loginAdmin(req, res) {
 
     res.cookie("token", token, {
         httpOnly: true,
-        secure: false,
-        sameSite: "lax",
+        secure: true,
+        sameSite: "none",
 
     });
 
@@ -199,8 +199,8 @@ function logoutAdmin(req, res) {
 
     res.clearCookie("token",{
         httpOnly: true,
-        secure: false,
-        sameSite: "lax",
+        secure: true,
+        sameSite: "none",
     });
     res.status(200).json({
         message: "Admin logged out Successfully"
