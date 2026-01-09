@@ -10,7 +10,7 @@ const About = () => {
 
       <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-12">
 
-        <motion.div variants={fadeUp} className="flex justify-center lg:w-1/2 border-2 border-gray-300">
+        <motion.div variants={fadeUp} className="flex justify-center lg:w-1/2">
           <img
             src="/about.png"
             alt="About CampusSpeak"
