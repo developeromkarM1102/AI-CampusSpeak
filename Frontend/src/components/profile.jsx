@@ -9,7 +9,7 @@ const UserProfile = () => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:3000/api/auth/user/profile", {
+      .get("https://ai-campusspeak.onrender.com/api/auth/user/profile", {
         withCredentials: true,
       })
       .then((res) => {

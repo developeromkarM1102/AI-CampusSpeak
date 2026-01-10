@@ -9,7 +9,7 @@ const AdminProfile = () => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:3000/api/auth/admin/profile", {
+      .get("https://ai-campusspeak.onrender.com/api/auth/admin/profile", {
         withCredentials: true,
       })
       .then((res) => {
