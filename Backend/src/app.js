@@ -8,7 +8,7 @@
  const app = express();
 
  app.use(cors({
-    origin: 'https://aicampusspeak.netlify.app/',
+    origin: 'https://ai-campus-speak.vercel.app/',
     credentials: true
    }))
 
