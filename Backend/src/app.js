@@ -8,7 +8,7 @@
  const app = express();
 
  app.use(cors({
-    origin: 'https://aicampusspeak.netlify.app/',
+    origin: 'https://aicampusspeak.netlify.app',
     credentials: true
    }))
 
