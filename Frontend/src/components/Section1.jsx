@@ -17,7 +17,7 @@ const Section1 = ({ complaints = [] }) => {
   const solvedComplaints = complaints.filter(c => c.status === "resolved").length;
 
   return (
-    <div className="relative min-h-screen bg-[url('/home.webp')] bg-cover bg-center w-full">
+    <div className="relative min-h-screen bg-[url('/home2.jpeg')] bg-cover bg-center w-full md:bg-[url('/home.webp')] items-center justify-center ">
 
       <div className="absolute inset-0 bg-black/40"></div>
 
