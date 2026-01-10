@@ -13,7 +13,7 @@ const Contact = () => {
 
     try {
        await axios.post(
-        "http://localhost:3000/api/add/users/feedback",
+        "https://ai-campusspeak.onrender.com/api/add/users/feedback",
         { name, email, message },
         { withCredentials: true }
       )

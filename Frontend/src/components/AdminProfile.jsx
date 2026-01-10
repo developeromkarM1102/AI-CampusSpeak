@@ -24,7 +24,7 @@ const AdminProfile = () => {
 
   const handleLogout = async () => {
     await axios.get(
-      "http://localhost:3000/api/auth/admin/logout",{ withCredentials: true }
+      "https://ai-campusspeak.onrender.com/api/auth/admin/logout",{ withCredentials: true }
     );
     alert("Logged out successfully");
     window.location.href = "/admin/login";

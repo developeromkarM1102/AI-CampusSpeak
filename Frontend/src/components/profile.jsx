@@ -24,7 +24,7 @@ const UserProfile = () => {
 
   const handleLogout = async () => {
     await axios.get(
-      "http://localhost:3000/api/auth/user/logout",
+      "https://ai-campusspeak.onrender.com/api/auth/user/logout",
       { withCredentials: true }
     );
     alert("Logged out successfully");

@@ -55,7 +55,7 @@ const Complaint = () => {
 
     setIsSubmitting(true);
     try {
-      await axios.post('http://localhost:3000/api/users/add/complaints', formData);
+      await axios.post('https://ai-campusspeak.onrender.com/api/users/add/complaints', formData);
       setSubmitSuccess(true);
       setFormData({
         name: '',

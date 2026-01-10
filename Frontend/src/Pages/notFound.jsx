@@ -9,7 +9,7 @@ const notFound = () => {
         <Navbar/>
     <div className="min-h-screen flex flex-col items-center justify-center bg-gray-100 px-6 text-center mt-13">
       <img
-        src="notFound.png"
+        src="/notFound.png"
         alt="404 Not Found"
         className="w-auto pr-10 sm:w-96 mb-6 shadow-lg rounded-full bg-white"
       />

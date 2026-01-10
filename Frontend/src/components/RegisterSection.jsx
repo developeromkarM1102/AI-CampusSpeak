@@ -16,7 +16,7 @@ const RegisterSection = () => {
 
     try {
       const response = await axios.post(
-        "http://localhost:3000/api/auth/user/register",
+        "https://ai-campusspeak.onrender.com/api/auth/user/register",
         { fullName, lastName, email, password },
         {withCredentials:true}
       )

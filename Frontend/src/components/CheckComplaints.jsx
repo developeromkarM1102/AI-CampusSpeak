@@ -22,7 +22,7 @@ const CheckComplaints = () => {
     try {
       setLoading(true);
       const res = await axios.get(
-        `http://localhost:3000/api/users/get/complaints/${rollNumber}`
+        `https://ai-campusspeak.onrender.com/api/users/get/complaints/${rollNumber}`
       );
       setComplaints(res.data.data);
     } catch (err) {

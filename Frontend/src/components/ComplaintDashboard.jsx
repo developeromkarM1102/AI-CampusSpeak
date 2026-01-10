@@ -16,7 +16,7 @@ const ComplaintDashboard = () => {
 
   const fetchComplaints = async () => {
     try {
-      const res = await axios.get("http://localhost:3000/api/users/get/complaints", {
+      const res = await axios.get("https://ai-campusspeak.onrender.com/api/users/get/complaints", {
         withCredentials: true
       });
       console.log("Complaints:", res.data.data);
@@ -33,7 +33,7 @@ const ComplaintDashboard = () => {
 
     try {
       const response = await axios.patch(
-        `http://localhost:3000/api/users/get/complaints/${complaintId}/status`,
+        `https://ai-campusspeak.onrender.com/api/users/get/complaints/${complaintId}/status`,
         { status: newStatus },
         { withCredentials: true }
       );
@@ -57,7 +57,7 @@ const ComplaintDashboard = () => {
   const fetchSolution = async (complaintId) => {
     try {
       const response = await axios.get(
-        `http://localhost:3000/api/ai/generate/response/${complaintId}`,
+        `https://ai-campusspeak.onrender.com/api/ai/generate/response/${complaintId}`,
         { withCredentials: true }
       );
       setGetSolution(response.data.solution);

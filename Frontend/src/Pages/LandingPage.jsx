@@ -20,7 +20,7 @@ useEffect(() => {
 }, []);
 
 const fetchComplaints = async () => {
-  const res = await axios.get("http://localhost:3000/api/stats/users/complaints");
+  const res = await axios.get("https://ai-campusspeak.onrender.com/api/stats/users/complaints");
   setComplaints(res.data.data);
 };
 

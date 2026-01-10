@@ -16,7 +16,7 @@ const AdminLoginSection = () => {
 
     try {
       const response = await axios.post(
-        "http://localhost:3000/api/auth/admin/login",
+        "https://ai-campusspeak.onrender.com/api/auth/admin/login",
         { email, password }
         , { withCredentials: true }
       )

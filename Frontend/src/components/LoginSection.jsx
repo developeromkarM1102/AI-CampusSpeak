@@ -16,7 +16,7 @@ const LoginSection = () => {
 
     try {
       const response = await axios.post(
-        "http://localhost:3000/api/auth/user/login",
+        "https://ai-campusspeak.onrender.com/api/auth/user/login",
         { email, password },
         { withCredentials: true }
       )
