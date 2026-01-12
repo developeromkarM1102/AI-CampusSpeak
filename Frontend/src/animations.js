@@ -69,3 +69,15 @@ export const textFade = {
     }
   }
 };
+
+export const bubbleAnimation = {
+  initial: { y: 0 },
+  animate: {
+    y: [0, -30, 0],
+    transition: {
+      duration: 6,
+      repeat: Infinity,
+      ease: "easeInOut"
+    }
+  }
+};
