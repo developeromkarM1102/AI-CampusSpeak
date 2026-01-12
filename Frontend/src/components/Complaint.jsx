@@ -55,7 +55,7 @@ const Complaint = () => {
 
     setIsSubmitting(true);
     try {
-      await axios.post('https://ai-campusspeak.onrender.com/api/users/add/complaints', formData);
+      await axios.post('https://ai-campusspeak.onrender.com/api/users/add/complaints', formData ,{ withCredentials: true });
       setSubmitSuccess(true);
       setFormData({
         name: '',
