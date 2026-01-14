@@ -78,7 +78,7 @@ const Section1 = ({ complaints = [] }) => {
               whileHover={{ scale: 0.95 }}
               className="w-full sm:w-auto bg-blue-600 px-6 py-3 rounded-full text-base sm:text-lg hover:bg-green-200 hover:text-black transition"
             >
-              Do Complaint <i className="ri-file-edit-fill ml-1"></i>
+              Raise your Complaint<i className="ri-file-edit-fill ml-1"></i>
             </motion.button>
 
             <motion.button
@@ -86,7 +86,7 @@ const Section1 = ({ complaints = [] }) => {
               whileHover={{ scale: 0.95 }}
               className="w-full sm:w-auto bg-blue-600 px-6 py-3 rounded-full text-base sm:text-lg hover:bg-green-200 hover:text-black transition"
             >
-              Check Complaints <i className="ri-file-paper-2-fill ml-1"></i>
+              Track complaint status<i className="ri-file-paper-2-fill ml-1"></i>
             </motion.button>
           </div>
         </section>
