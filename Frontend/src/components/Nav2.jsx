@@ -15,7 +15,7 @@ const Nav2 = () => {
           <div className="text-3xl bg-black rounded-full p-2">
             <i className="ri-graduation-cap-line"></i>
           </div>
-          <h1 className="text-2xl font-semibold">CampusSpeak-KBP</h1>
+          <h1 className="text-2xl font-semibold">CampusSpeak-AI</h1>
         </div>
 
         <div className="flex gap-6 text-2xl">
