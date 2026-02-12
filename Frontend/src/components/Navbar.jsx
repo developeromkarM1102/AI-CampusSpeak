@@ -20,7 +20,7 @@ const Navbar = () => {
             <i className="ri-graduation-cap-line"></i>
           </div>
           <h1 className="text-xl sm:text-2xl font-semibold">
-            CampusSpeak-KBP
+            CampusSpeak-AI
           </h1>
         </div>
 
